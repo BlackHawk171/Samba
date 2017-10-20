@@ -16,7 +16,7 @@ clear
 
 echo "[global]" > /etc/samba/smb.conf
 echo "" >> /etc/samba/smb.conf
-echo "       netbios name = " ˃˃ /etc/samba/smb.conf
+echo "       netbios name = " >> /etc/samba/smb.conf
 echo "       security = ADS" >> /etc/samba/smb.conf
 echo "       workgroup = " >> /etc/samba/smb.conf
 echo "       realm = " >> /etc/samba/smb.conf
