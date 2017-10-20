@@ -6,7 +6,7 @@
 file="/etc/samba/smb.conf"
 if [ -f "$file" ]
 then
-	echo ""	
+	echo ""
 else
 	rm -rf /etc/samba/smb.conf
 fi
